@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Food Deliverd website</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+<header>
+ 
+    <div class="logo">
+      <h1>Hello</h1>
+    </div>
+
+    <div class="list">
+      <ul>
+        <li><a href="./index.html">Home</a> </li>
+        <li><a href="#">about</a> </li>
+        <li> <a href="">service</a> </li>
+        <li> <a href="">contact</a> </li>
+        <li> <a href="">gallary</a> </li>
+      </ul>
+    </div>
+
+ <i class="fa fa-bars nav-btn" id="btn"  aria-hidden="true"></i> 
+
+</header>  
+
+
+<div class="about">
+
+    <h1>About page</h1>
+
+    <div class="content" >
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad molestias sunt porro? Error vitae doloribus vel expedita distinctio illo atque ducimus! Provident nulla distinctio qui perferendis beatae ut tempore dolorum.</p>
+
+    </div>
+</div>
+</body>
+
+
+<script>
+
+
+  let nav = document.querySelector(".list");
+  let btn = document.querySelector("#btn");
+
+  btn.onclick = () =>{
+    nav.classList.toggle("active")
+  }
+     
+  
+
+
+
+</script>
+
+
+</html>
